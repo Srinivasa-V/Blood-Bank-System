@@ -1,0 +1,5 @@
+create table adminlogin(name varchar(20),password varchar(20));
+
+create table donorform(name varchar(25),age bigint(3),phone bigint(11),email varchar(35),address varchar(150),gender varchar(7),blood varchar(4));
+
+create table request(name varchar(25),date date,withindate date,age varchar(3),blood varchar(4),phone bigint(11));
